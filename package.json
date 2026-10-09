@@ -1,0 +1,12 @@
+{
+  "name": "honor-counter-picker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "data:update": "python3 scripts/update_data.py",
+    "data:counters": "python3 scripts/update_counters.py"
+  }
+}
